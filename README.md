@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# 💙 XP Health – Monitoramento de Batimentos Cardíacos  
 
 ### Integrantes:
 - Paulo Lopes - RM: 551137
@@ -7,51 +7,62 @@
 - Ricardo Augusto de Matos - RM: 95906
 - Felipe Voidela - RM: 98595
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## 🚀 Primeiros Passos  
 
-1. Install dependencies
+1. Instale as dependências  
 
    ```bash
    npm install
-   ```
 
-2. Start the app
+2. Inicie o aplicativo
 
    ```bash
    npx expo start
    ```
+## ✨ Funcionalidades  
 
-In the output, you'll find options to open the app in a
+- 🔐 **Login**  
+  - Tela de autenticação simulada.  
+  - Qualquer usuário pode ser digitado.  
+  - Senha obrigatória: **`1234`**.  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 🩺 **Investimentos (batimentos cardíacos)**  
+  - Exibe os **batimentos cardíacos simulados em tempo real**.  
+  - Avalia automaticamente se o usuário está **✅ apto** ou **❌ não apto**.  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- 👤 **Perfil**  
+  - Exibe informações do usuário logado.  
+  - Possui botão **Sair (logout)** que encerra a sessão e retorna ao login.  
 
-## Get a fresh project
+- 📊 **Resultados**  
+  - Mostra um **histórico simulado** de medições anteriores com data, valor e status.  
 
-When you're ready, run:
+- ⚙️ **Configurações**  
+  - Tela de ajustes e permissões (versão demo).  
 
-```bash
-npm run reset-project
-```
+- 🔄 **Fluxo de autenticação**  
+  - Sempre inicia na tela de **Login**.  
+  - Após login válido → redireciona para as **Tabs**.  
+  - Logout → retorna para o **Login**.  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+🔑 Credenciais de Teste
 
-To learn more about developing your project with Expo, look at the following resources:
+Usuário: qualquer nome (ex.: teste)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Senha: 1234
 
-## Join the community
+---
+🚀 Tecnologias Utilizadas
 
-Join our community of developers creating universal apps.
+- React Native com Expo
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Expo Router para navegação
+
+- AsyncStorage para simulação de login persistente
+
+- TypeScript
+
+- React Context API para autenticação
