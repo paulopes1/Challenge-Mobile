@@ -1,5 +1,12 @@
 # Welcome to your Expo app 👋
 
+### Integrantes:
+- Paulo Lopes - RM: 551137
+- Leonardo Schunck - RM: 99902
+- Kayke Schunck - RM: 99756
+- Ricardo Augusto de Matos - RM: 95906
+- Felipe Voidela - RM: 98595
+
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
