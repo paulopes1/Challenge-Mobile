@@ -35,9 +35,17 @@
   - Exibe informações do usuário logado.  
   - Possui botão **Sair (logout)** que encerra a sessão e retorna ao login.  
 
-- 📊 **Resultados**  
-  - Mostra um **histórico simulado** de medições anteriores com data, valor e status.  
-
+- 📈 Inserir Resultados (CRUD + Firebase)
+  - Permite inserir resultados reais (BPM, status e observações).
+  - Integração com Firebase Firestore para armazenamento em nuvem.
+  - Campos validados com Zod e React Hook Form.
+  - Feedback visual com Toast para sucesso ou erro.
+  - Status selecionável entre APTO e NÃO APTO.
+   
+- 📊 Resultados
+  - Exibe os registros salvos no Firebase com data, BPM, status e observação.
+  - Atualiza automaticamente após inserções.
+  
 - ⚙️ **Configurações**  
   - Tela de ajustes e permissões (versão demo).  
 
@@ -66,3 +74,11 @@ Senha: 1234
 - TypeScript
 
 - React Context API para autenticação
+
+- Firebase Firestore (armazenamento de dados)
+
+-   React Hook Form + Zod (validação de formulários)
+
+-   React Context API (gerenciamento de autenticação)
+
+- React Native Toast Message (feedback visual)
