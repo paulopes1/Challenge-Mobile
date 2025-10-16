@@ -45,6 +45,15 @@ export default function TabsLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+  name="inserirResultados"
+  options={{
+    title: "Inserir Resultados",
+    tabBarIcon: ({ color, size }) => (
+      <Ionicons name="add-circle-outline" color={color} size={size} />
+    ),
+  }}
+/>
     </Tabs>
   );
 }

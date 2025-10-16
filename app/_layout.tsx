@@ -2,6 +2,7 @@ import { Slot, useRouter, useSegments } from "expo-router";
 import { AuthProvider, useAuth } from "../src/contexts/AuthContext";
 import { useEffect } from "react";
 import { ActivityIndicator, View } from "react-native";
+import Toast from "../src/components/Toast"; 
 
 function RootLayoutNav() {
   const { user, isLoading } = useAuth();
@@ -36,7 +37,11 @@ function RootLayoutNav() {
 export default function RootLayout() {
   return (
     <AuthProvider>
+      {/* Navegação principal */}
       <RootLayoutNav />
+
+      {/* Toast global (aparece por cima de todas as telas) */}
+      <Toast />
     </AuthProvider>
   );
 }
